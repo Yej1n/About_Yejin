@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    }
+
+
+  /* 프로필 이미지 */
+.img {
+    justify-content: center;
+    }
+#porfile-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    transform: scale(1); /* 이미지 사이즈 고정 */
+    border-radius: 70%
+    }
+
+.menu-bar {
+    position: fixed;
+    border: 0;
+    background-color: black;
+    display: block;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.index {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+  /* 목차 */
+.index h3 {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+    }
+.index h3:hover {
+    font-size: 1.1em;
+    opacity: 1;
+    text-shadow: 0.7px 0.7px 0.7px #000;
+    }
+section {
+    margin-left: 260px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+p {
+    margin: 0;
+    }
+
+
+/* ABOUT part*/
+.name {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    }
+.contacts {
+    font-size: 15px;
+    opacity: 0.5;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    }
+.main-introduction {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.8;
+    }
+
+  /* sns */
+.fa-brands {
+    color: black;
+    opacity: 0.4
+    }
+.fa-solid {
+    color: black;
+    opacity: 0.4
+    }
+.sns-pictogram i {
+    margin-right: 40px;
+    }
+footer i:hover {
+    transform: translate(0, -3px);
+    }
+
+
+
+/* ADVANAGE part */
+.advantage img {
+    margin-right: 7px;
+    margin-top:10px;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-image-outset: 10px;
+    width: 120px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+    }
+img:hover {
+    transform: scale(1.7);
+    z-index: 1;
+    align-items: center;
+    }
+.advantage p{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    }
+  /* for layout */
+.contents1 {
+    width: 700px;
+    }
+.contents2 {
+    width: 700px;
+    margin-left: 120px;
+    margin-top: 30px;
+    }
+.text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+    }
+
+
+
+  /* INTERESTS part */
+.whatilove-text {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    }
+.whatilove-img {
+    margin-bottom: 20px;
+    }
+.whatilove-img img {
+    width:150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+    }
+.interests .comment {
+    font-size: 16px;
+    font-style: italic;
+    }
